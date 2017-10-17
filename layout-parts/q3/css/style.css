@@ -1,5 +1,27 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
 
-/* 回答はここに書いてね */
+table th, table td {
+  border: solid 1px #dedede;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table th, table td:first-child {
+  color: #fff;
+  background: #24a;
+}
+
+tr:last-child {
+  border-top: dashed #000 2px;
+}
+
+tr:nth-child(odd) {
+  background: #ecf1f2;
+}
