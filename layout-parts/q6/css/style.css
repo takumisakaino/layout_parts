@@ -1,5 +1,90 @@
 @charset "UTF-8";
 
+.common {
+  background: #00bcd4;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.common:hover {
+  background: #ffefd3;
+}
+
+.error {
+  background: #ff4081;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.error:hover {
+  background: #7084de;
+}
+
+.disabled {
+  background: #e5e5e5;
+  color: #fff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.disabled:hover {
+  background: #222;
+}
+
+.shadow {
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12);
+  box-shadow: 0 1px 4px rgba(0,0,0,.12);
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.shadow:hover {
+  background: #00bcd4;
+}
+
+.small {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 26px;
+  outline: none;
+  height: 26px;
+  border-radius: 3px;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.middle {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 32px;
+  outline: none;
+  height: 32px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.large {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  line-height: 38px;
+  outline: none;
+  height: 38px;
+  border-radius: 7px;
+  font-size: 24px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
