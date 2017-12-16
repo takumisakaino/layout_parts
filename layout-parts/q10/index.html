@@ -35,12 +35,63 @@
         ■この問題で使う大事なhtml要素
         ・form
         ・input(type="submit")
+        required=必須入力項目
         -->
         <!-- 回答はここに書いてね -->
-
+        <form class="q10">
+            <div class="q10-title">
+                <p class="q10-title-text">Form Exercise</p>
+            </div>
+            <div class="clearfix">
+                <div class="q10-main">
+                    <ul class="q10-main-items">
+                        <li class="clearfix">
+                            <p class="q10-main-items-title">name
+                                <span class="hissu">*</span>
+                            </p>
+                            <div class="q10-main-items-content">
+                                <input class="q10-input q10-input-init" type="text" name="q10-1" required>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <p class="q10-main-items-title">sex</p>
+                            <div class="q10-main-items-content">
+                                <label class="q10-radio"><input class="q10-radio-btn" type="radio" name="q10-2" value="male">
+                                <span class="q10-radio-text">male</span>
+                                </label>
+                                <label class="q10-radio"><input class="q10-radio-btn" type="radio" name="q10-2" value="female">
+                                <span class="q10-radio-text">female</span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <p class="q10-main-items-title">Email
+                                <span class="hissu">*</span>
+                            </p>
+                            <div class="q10-main-items-content">
+                                <input class="q10-input q10-input-init"
+                                type="text" placeholder="ex)hoge@gmail.com"
+                                name="q10-3" required>
+                            </div>
+                        </li>
+                        <li class="clearfix">
+                            <p class="q10-main-items-title">telephone</p>
+                            <div class="q10-main-items-content">
+                                <input class="q10-input q10-input-init" type="text" name="q10-4" placeholder="ex)08012345678">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="q10-main-bottom">
+                        <input class="q10-main-bottom-btn q10-input-init" type="submit" value="submit">
+                    </div>
+                </div>
+                <div class="q10-side">
+                    <textarea class="q10-side-text q10-input-init" name="q10-5" placeholder="Please fill in the message"></textarea>
+                </div>
+            </div>
+        </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>
-
 </body>
 </html>
