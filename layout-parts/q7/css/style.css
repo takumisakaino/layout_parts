@@ -122,7 +122,6 @@
     height: 5px;
     border-bottom: 2px solid #00BCD4;
     border-left: 2px solid #00BCD4;
-    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     /*線を曲げてチェックを作る*/
 }
@@ -140,7 +139,6 @@
     height: 8px;
     border-bottom: 2px solid #ccc;
     border-left: 2px solid #ccc;
-    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     content: "";
 }

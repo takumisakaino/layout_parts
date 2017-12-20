@@ -3,10 +3,8 @@
 /* 回答はここに書いてね */
 .fukidashi {
   position: relative;
-  display: inline-block;
+  width: 500px;
   padding: 20px;
-  min-width: 120px;
-  max-width: 500px;
   color: #555;
   font-size: 16px;
   background: #fff;
@@ -14,6 +12,7 @@
   box-sizing: border-box;
   border-radius: 30px;
   line-height: 16px;
+  margin: 0 auto;
 }
 
 .fukidashi::before {

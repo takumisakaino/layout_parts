@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 .table {
-  width: 700px;
+  width: 100%;
   display: table;
   margin: auto;
+  box-sizing: border-box;
 }
 
 .box1-1, .box1-2, .box1-3 {

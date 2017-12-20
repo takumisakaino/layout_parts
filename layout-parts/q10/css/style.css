@@ -21,7 +21,7 @@
     width: 100%;
     height: 1px;
     background-color: #ccc;
-    content: "";
+    content: " ";
 }/*タイトルの横の線*/
 
 .q10-title-text {
