@@ -7,43 +7,35 @@
   box-sizing: border-box;
 }
 
-.box1-1, .box1-2, .box1-3 {
+.boxlayout {
   display: table-cell;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
-.box1-1 {
+.is-pink {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.box1-2 {
+.is-purple {
   background-color: #e0abd9;
 }
 
-.box1-3 {
+.is-blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.box2-1, .box2-2, .box2-3 {
-  display: table-cell;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.box2-1 {
+.is-orange {
   background-color: #e5d32e;
 }
 
-.box2-2 {
+.is-yellow {
   background-color: #e4e67c;
 }
 
-.box2-3 {
+.is-green {
   background-color: #8fdcad;
   width: 500px;
 }

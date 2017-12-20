@@ -39,11 +39,11 @@
 /*文字入力する際、ふわっとさせる*/
 
 .q7-textarea {
-    height: 40px;
-    padding: 5px;
-    border: 1px solid #00BCD4;
-    border-radius: 5px;
-    resize: none;
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  resize: none;
   }
 
 .q7-radio {
@@ -55,35 +55,35 @@
   }
 
 .q7-radio-text {
-    position: relative;
-    display: inline-block;
-    padding: 3px 3px 3px 20px;
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 20px;
 }
 
 .q7-radio-text:before {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 14px;
-    height: 14px;
-    margin-top: -8px;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: '';
 }
 /*外枠の丸*/
 
 .q7-radio-btn:checked + .q7-radio-text:after {
-    position: absolute;
-    top: 50%;
-    left: 4px;
-    width: 8px;
-    height: 8px;
-    margin-top: -4px;
-    background-color: #00BCD4;
-    border-radius: 50%;
-    content: '';
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: '';
 }
 /*チェックした時の青い丸*/
 
@@ -96,70 +96,72 @@
 }
 
 .q7-check-text {
-    position: relative;
-    display: inline-block;
-    padding: 3px 3px 3px 22px;
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 22px;
 }
 
 .q7-check-text:before {
-    position: absolute;
-    content: '';
-    top: 50%;
-    left: 0;
-    width: 14px;
-    height: 14px;
-    margin-top: -8px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
 }
 
 .q7-check-btn:checked + .q7-check-text:after {
-    position: absolute;
-    content: '';
-    top: 5px;
-    left: 3px;
-    width: 13px;
-    height: 5px;
-    border-bottom: 2px solid #00BCD4;
-    border-left: 2px solid #00BCD4;
-    transform: rotate(-45deg);
-    /*線を曲げてチェックを作る*/
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00BCD4;
+  border-left: 2px solid #00BCD4;
+  transform: rotate(-45deg);
+  /*線を曲げてチェックを作る*/
 }
 
 .q7-select {
-    position: relative;
-    background-color: #FFF;
+  position: relative;
+  background-color: #FFF;
 }
 
 .q7-select:before {
-    position: absolute;
-    top: 7px;
-    right: 9px;
-    width: 8px;
-    height: 8px;
-    border-bottom: 2px solid #ccc;
-    border-left: 2px solid #ccc;
-    transform: rotate(-45deg);
-    content: "";
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  width: 8px;
+  height: 8px;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  transform: rotate(-45deg);
+  content: "";
 }
 
 .q7-select-item {
-    position: relative;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    padding: 5px 30px 5px 5px;
-    font-size: 14px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
 }
+
 .q7-btn {
-    padding: 5px 10px;
-    border: 1px solid #00BCD4;
-    border-radius: 5px;
-    color: #00BCD4;
-    cursor: pointer;/*重ねた時に指の形にする*/
+  padding: 5px 10px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  color: #00BCD4;
+  cursor: pointer;/*重ねた時に指の形にする*/
 }
+
 .q7-btn:active {
-    background-color: #00BCD4;
-    color: #FFF;
+  background-color: #00BCD4;
+  color: #FFF;
 }
 
 /* 回答はここに書いてね */

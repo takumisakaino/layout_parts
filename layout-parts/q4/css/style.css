@@ -3,14 +3,12 @@
 .main-box {
   width: 500px;
   height: 500px;
-  background: #ECF1F2;
+  background: #ecf1f2;
   position: relative;
   margin: auto;
 }
 
 .box1 {
-  width: 100px;
-  height: 100px;
   background: #ffefd3;
   position: absolute;
   top: 40px;
@@ -18,8 +16,6 @@
 }
 
 .box2 {
-  width: 100px;
-  height: 100px;
   background: #7084de;
   position: absolute;
   top: 120px;
@@ -28,8 +24,6 @@
 }
 
 .box3 {
-  width: 100px;
-  height: 100px;
   background: #d0ecea;
   position: absolute;
   top: 200px;
@@ -38,8 +32,6 @@
 }
 
 .box4 {
-  width: 100px;
-  height: 100px;
   background: #8b7a5e;
   position: absolute;
   top: 280px;
@@ -48,8 +40,6 @@
 }
 
 .box5 {
-  width: 100px;
-  height: 100px;
   background: #9fd6d2;
   position: absolute;
   top: 360px;
@@ -58,8 +48,6 @@
 }
 
 .box6 {
-  width: 100px;
-  height: 100px;
   background: #fffee4;
   position: absolute;
   top: 280px;
@@ -68,8 +56,6 @@
 }
 
 .box7 {
-  width: 100px;
-  height: 100px;
   background: #deae70;
   position: absolute;
   top: 200px;
@@ -77,9 +63,7 @@
   z-index: 70;
 }
 
-.box8{
-  width: 100px;
-  height: 100px;
+.box8 {
   background: #de70cf;
   position: absolute;
   top: 120px;
@@ -88,28 +72,28 @@
 }
 
 .box9 {
-  width: 100px;
-  height: 100px;
   background: #2b69a3;
   position: fixed;
   top: 20px;
   left: 20px;
 }
 
-.box8:before{
+.box8:before {
   content: '';
   display: block;
   width: 20px;
   height: 20px;
   background: #ffefd3;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  right: 0;
 }
 
 
 
-.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9 {
+.boxlayout {
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;

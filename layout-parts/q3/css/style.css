@@ -1,27 +1,26 @@
 @charset "UTF-8";
 
-table {
+.cal-table {
   border-collapse: collapse;
   width: 100%;
   margin: auto;
   text-align: center;
 }
 
-table th, table td {
+.cal-table th,.cal-table td {
   border: solid 1px #dedede;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
 }
 
-table th, table td:first-child {
+.cal-table th,.cal-table td:first-child {
   color: #fff;
   background: #24a;
 }
 
-tr:last-child {
+.cal-table tr:last-child {
   border-top: dashed #000 2px;
 }
 
-tr:nth-child(odd) {
+.cal-table tr:nth-child(odd) {
   background: #ecf1f2;
 }

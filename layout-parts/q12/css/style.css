@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.fukidashi {
+.text-baloon {
   position: relative;
   width: 500px;
   padding: 20px;
@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-.fukidashi::before {
+.text-baloon::before {
   content: " ";
   position: absolute;
   bottom: -24px;
@@ -26,7 +26,7 @@
   z-index: 2;
 }
 
-.fukidashi::after {
+.text-baloon::after {
   content: " ";
   position: absolute;
   bottom: -33px;
@@ -36,10 +36,7 @@
   border-top: 14px solid #555;
   z-index: 1;
 }
-.fukidashi p {
-  margin: 0;
-  padding: 0;
-}
+
 
 
   /* 回答はここに書いてね */

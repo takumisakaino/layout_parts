@@ -29,11 +29,8 @@
   border-color: #022336;
   padding: 20px;
   box-sizing: border-box;
-}
-
-.text-style {
   font-size:16px;
-  line-height: 16px;
+  line-height: 16px
 }
 
 .clearfix::before,

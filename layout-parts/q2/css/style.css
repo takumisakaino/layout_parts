@@ -8,18 +8,18 @@ main {
   box-sizing: border-box;
 }
 
-p {
+.q2-text {
   font-size: 17px;
   line-height: 22px;
 }
 
-.fuusen {
+.balloon {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
 }
 
-.tyoutin {
+.lantern {
   float: right;
   margin-left: 20px;
   margin-bottom: 10px;
