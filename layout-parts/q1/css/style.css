@@ -24,9 +24,7 @@
 .text-box {
   width: 230px;
   background: #eaf4ff;
-  border-width: 10px;
-  border-style: solid;
-  border-color: #022336;
+  border: 10px solid #022336;
   padding: 20px;
   box-sizing: border-box;
   font-size:16px;
