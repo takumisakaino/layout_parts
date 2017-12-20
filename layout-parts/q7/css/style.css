@@ -30,18 +30,19 @@
 }
 
 .q7-text::-webkit-input-placeholder {
-  color: #00BCD4;
+  color: #00bcd4;
   }
 /*文字色を変える*/
+
 .q7-text:focus {
-  box-shadow: 0 0 7px #00BCD4;
+  box-shadow: 0 0 7px #00bcd4;
   }
 /*文字入力する際、ふわっとさせる*/
 
 .q7-textarea {
   height: 40px;
   padding: 5px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
   resize: none;
   }
@@ -81,7 +82,7 @@
   width: 8px;
   height: 8px;
   margin-top: -4px;
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   border-radius: 50%;
   content: '';
 }
@@ -120,15 +121,15 @@
   left: 3px;
   width: 13px;
   height: 5px;
-  border-bottom: 2px solid #00BCD4;
-  border-left: 2px solid #00BCD4;
+  border-bottom: 2px solid #00bcd4;
+  border-left: 2px solid #00bcd4;
   transform: rotate(-45deg);
   /*線を曲げてチェックを作る*/
 }
 
 .q7-select {
   position: relative;
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .q7-select:before {
@@ -153,15 +154,15 @@
 
 .q7-btn {
   padding: 5px 10px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
-  color: #00BCD4;
+  color: #00bcd4;
   cursor: pointer;/*重ねた時に指の形にする*/
 }
 
 .q7-btn:active {
-  background-color: #00BCD4;
-  color: #FFF;
+  background-color: #00bcd4;
+  color: #fff;
 }
 
 /* 回答はここに書いてね */
